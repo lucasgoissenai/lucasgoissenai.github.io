@@ -1,0 +1,40 @@
+/* Definindo estilos para o corpo da página */
+body {
+    /* Utilizando flexbox para centralizar o conteúdo vertical e horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Definindo a altura da página como 100% da altura visível do dispositivo (viewport) */
+    height: 100vh;
+    /* Removendo margens padrão do corpo da página */
+    margin: 0;
+}
+
+/* Estilizando o contêiner principal da calculadora */
+.calculator {
+    /* Centralizando o texto dentro do contêiner principal */
+    text-align: center;
+}
+
+/* Estilizando o visor da calculadora */
+.display {
+    /* Tamanho da fonte 2 vezes maior do que o tamanho padrão */
+    font-size: 2em;
+    /* Adicionando espaço abaixo do visor */
+    margin-bottom: 10px;
+    /* Adicionando preenchimento interno ao visor */
+    padding: 10px;
+    /* Adicionando uma borda de 1 pixel sólido com cor #ccc (cinza claro) ao redor do visor */
+    border: 1px solid #ccc;
+}
+
+/* Estilizando os botões da calculadora */
+button {
+    /* Tamanho da fonte 1.5 vezes maior do que o tamanho padrão */
+    font-size: 1.5em;
+    /* Definindo largura e altura fixas para os botões */
+    width: 50px;
+    height: 50px;
+    /* Adicionando margem ao redor dos botões para espaçamento */
+    margin: 5px;
+}

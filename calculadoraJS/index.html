@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Definindo a codificação de caracteres para UTF-8 -->
+        <meta charset="UTF-8">
+
+        <!-- Configurando a escala inicial para o dimensionamento responsivo -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Incluindo o arquivo de estilos externo (styles.css) -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Título da página -->
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <!-- Container principal da calculadora -->
+        <div class="calculator">
+
+            <!-- Visor da calculadora com ID "display" -->
+            <div class="display" id="display">0</div>
+
+            <!-- Botão para limpar o visor chamando a função clearDisplay() -->
+            <button onclick="clearDisplay()">C</button>
+
+            <!-- Botão para adicionar o número 7 chamando a função appendNumber(7) -->
+            <button onclick="appendNumber(7)">7</button>
+
+            <!-- ... Botões numéricos de 0 a 9 (faltantes) ... -->
+
+            <!-- Botão para adicionar o operador de adição chamando a função appendOperator('+') -->
+            <button onclick="appendOperator('+')">+</button>
+
+            <!-- ... Outros botões de operação (faltantes) ... -->
+
+            <!-- Botão de igual para calcular o resultado chamando a função calculate() -->
+            <button onclick="calculate()">=</button>
+        </div>
+
+        <!-- Incluindo o script JavaScript externo (script.js) -->
+        <script src="script.js"></script>
+    </body>
+</html>
